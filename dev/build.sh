@@ -5,12 +5,12 @@
 # to run with Bash: "C:\Program Files\Git\bin\bash.exe" ./dev/build.sh
 ###
 
-export APP_NAME="VSCodium"
-export ASSETS_REPOSITORY="VSCodium/vscodium"
-export BINARY_NAME="codium"
+export APP_NAME="BAX"
+export ASSETS_REPOSITORY="Erg69/BAX-IDE"
+export BINARY_NAME="bax"
 export CI_BUILD="no"
-export GH_REPO_PATH="VSCodium/vscodium"
-export ORG_NAME="VSCodium"
+export GH_REPO_PATH="Erg69/BAX-IDE"
+export ORG_NAME="BAX"
 export SHOULD_BUILD="yes"
 export SKIP_ASSETS="yes"
 export SKIP_BUILD="no"
@@ -22,7 +22,7 @@ export VSCODE_SKIP_NODE_VERSION_CHECK="yes"
 while getopts ":ilops" opt; do
   case "$opt" in
     i)
-      export ASSETS_REPOSITORY="VSCodium/vscodium-insiders"
+      export ASSETS_REPOSITORY="Erg69/BAX-IDE-insiders"
       export BINARY_NAME="codium-insiders"
       export VSCODE_QUALITY="insider"
       ;;

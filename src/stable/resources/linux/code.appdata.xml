@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+	<id>@@NAME@@.desktop</id>
+	<metadata_license>@@LICENSE@@</metadata_license>
+	<project_license>@@LICENSE@@</project_license>
+	<n>@@NAME_LONG@@</n>
+	<url type="homepage">https://your-bax-website.com</url>
+	<summary>BAX. Code editing. Redefined.</summary>
+	<description>
+		<p>BAX is a customized distribution of Microsoft's editor VS Code.</p>
+	</description>
+	<screenshots>
+		<screenshot type="default">
+			<image>https://your-bax-website.com/img/bax.png</image>
+			<caption>Editing C</caption>
+		</screenshot>
+	</screenshots>
+</component>

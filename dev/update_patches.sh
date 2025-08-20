@@ -26,7 +26,7 @@ check_file() {
   if [[ -f "${1}" ]]; then
     git apply --reject "../patches/helper/settings.patch"
     git add .
-    git commit --no-verify -q -m "VSCODIUM HELPER"
+    git commit --no-verify -q -m "BAX HELPER"
 
     echo applying patch: "${1}"
 

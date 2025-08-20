@@ -1,8 +1,8 @@
-name: codium
-adopt-info: codium
+name: bax
+adopt-info: bax
 summary: Code editing. Redefined.
 description: |
-  Binary releases of Visual Studio Code without branding/telemetry/licensing
+  BAX - A powerful code editor built on Visual Studio Code
 
 base: core20
 grade: stable

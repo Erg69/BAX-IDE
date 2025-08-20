@@ -1,5 +1,5 @@
-name: codium-insiders
-adopt-info: codium-insiders
+name: bax-insiders
+adopt-info: bax-insiders
 summary: Code editing. Redefined.
 description: |
   Binary releases of Visual Studio Code - Insiders without branding/telemetry/licensing

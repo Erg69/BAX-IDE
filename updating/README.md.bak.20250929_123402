@@ -25,9 +25,9 @@ bash updating/update_bax_to_latest_vscode.sh --insider --build
 ## What These Scripts Do
 
 1. **📡 Fetch Latest VSCode Version** - Queries Microsoft's update API to get the latest VSCode commit and version
-2. **🔄 Update BAX Patches** - Downloads latest BAX patches, telemetry removal, and customizations
+2. **🔄 Update VSCodium Patches** - Downloads latest VSCodium patches, telemetry removal, and customizations
 3. **📥 Download Source Code** - Downloads the latest VSCode source from GitHub
-4. **🎨 Apply BAX Branding** - Runs all branding scripts to replace BAX with BAX branding
+4. **🎨 Apply BAX Branding** - Runs all branding scripts to replace VSCodium with BAX branding
 5. **🔧 Apply Patches** - Applies all patches for telemetry removal and customizations
 6. **🧹 Clean Build Outputs** - Removes old build directories to ensure fresh compilation
 7. **🔨 Optional Auto-Build** - Can automatically start the build process
@@ -41,7 +41,7 @@ bash updating/update_bax_to_latest_vscode.sh --insider --build
 | `-i, --insider` | Update to VSCode Insider builds instead of stable |
 | `-f, --force` | Force update even if already at latest version |
 | `-s, --skip-icons` | Skip icon branding (faster for text-only updates) |
-| `-v, --skip-bax` | Skip BAX patches update (VSCode only) |
+| `-v, --skip-vscodium` | Skip VSCodium patches update (VSCode only) |
 | `-b, --build` | Automatically start build after update |
 | `-h, --help` | Show help message |
 
@@ -52,7 +52,7 @@ bash updating/update_bax_to_latest_vscode.sh --insider --build
 | `-Insider` | Update to VSCode Insider builds instead of stable |
 | `-Force` | Force update even if already at latest version |
 | `-SkipIcons` | Skip icon branding (faster for text-only updates) |
-| `-SkipBAX` | Skip BAX patches update (VSCode only) |
+| `-SkipVSCodium` | Skip VSCodium patches update (VSCode only) |
 | `-Build` | Automatically start build after update |
 | `-Help` | Show help message |
 

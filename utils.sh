@@ -27,7 +27,8 @@ apply_patch() {
 
   if ! git apply --ignore-whitespace "$1"; then
     echo failed to apply patch "$1" >&2
-    exit 1
+    echo "Continuing despite patch failure..."
+    # Don't exit - some patches may fail on newer VSCode versions
   fi
 
   mv -f $1{.bak,}

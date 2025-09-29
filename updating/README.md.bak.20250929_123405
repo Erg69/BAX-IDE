@@ -41,7 +41,7 @@ bash updating/update_bax_to_latest_vscode.sh --insider --build
 | `-i, --insider` | Update to VSCode Insider builds instead of stable |
 | `-f, --force` | Force update even if already at latest version |
 | `-s, --skip-icons` | Skip icon branding (faster for text-only updates) |
-| `-v, --skip-bax` | Skip BAX patches update (VSCode only) |
+| `-v, --skip-vscodium` | Skip BAX patches update (VSCode only) |
 | `-b, --build` | Automatically start build after update |
 | `-h, --help` | Show help message |
 
